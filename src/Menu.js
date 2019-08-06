@@ -52,7 +52,7 @@ export default function CustomizedMenus() {
     }
 
     return (
-        <div>
+        <div className="menuBtn">
             <Button
                 aria-controls="customized-menu"
                 aria-haspopup="true"
