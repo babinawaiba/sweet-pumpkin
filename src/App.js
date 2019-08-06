@@ -6,6 +6,7 @@ import Header, { Logo } from './Header.js';
 import Card from './Card.js';
 import PhotoFrame from './PhotoFrame.js';
 import Modal from './Modal.js';
+import Menu from './Menu.js';
 
 class App extends Component {
     constructor(props) {
@@ -26,13 +27,20 @@ class App extends Component {
     render() {
         let sidebarClass = "sidebar";
         const profile = {
+<<<<<<< HEAD
             name: "Amrit Tamang",
+=======
+            email: "babina.waiba@gmail.com",
+            name: "Alvina Tamang",
+>>>>>>> e139cad... email added
             address: "451 Taralake State Drive NE",
+
         };
         console.log('States:', this.state);
 
         return (
             <div className="container">
+                <Menu />
                 <Header toggleSidebar={this.handleToggleSidebar} name="Babina Waiba" age="32" />
                 <div className="main-content-wrapper">
                     <Modal />
@@ -56,6 +64,7 @@ class App extends Component {
                 </div>
                 <div className="footer">Footer</div>
                 <PhotoFrame />
+
 
             </div>
         );
