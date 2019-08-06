@@ -5,6 +5,7 @@ import './App.css';
 import Header, { Logo } from './Header.js';
 import Card from './Card.js';
 import PhotoFrame from './PhotoFrame.js';
+import Menu from './Menu.js';
 
 class App extends Component {
     constructor(props) {
@@ -32,6 +33,7 @@ class App extends Component {
 
         return (
             <div className="container">
+                <Menu />
                 <Header toggleSidebar={this.handleToggleSidebar} name="Babina Waiba" age="32" />
                 <div className="main-content-wrapper">
                     {this.state.displaySidebar &&
@@ -54,6 +56,7 @@ class App extends Component {
                 </div>
                 <div className="footer">Footer</div>
                 <PhotoFrame />
+
 
             </div>
         );
