@@ -5,6 +5,7 @@ import './App.css';
 import Header, { Logo } from './Header.js';
 import Card from './Card.js';
 import PhotoFrame from './PhotoFrame.js';
+import Modal from './Modal.js';
 
 class App extends Component {
     constructor(props) {
@@ -34,6 +35,7 @@ class App extends Component {
             <div className="container">
                 <Header toggleSidebar={this.handleToggleSidebar} name="Babina Waiba" age="32" />
                 <div className="main-content-wrapper">
+                    <Modal />
                     {this.state.displaySidebar &&
                         <div className={sidebarClass}>Sidebar</div>
 
