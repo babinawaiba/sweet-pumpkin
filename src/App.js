@@ -27,12 +27,8 @@ class App extends Component {
     render() {
         let sidebarClass = "sidebar";
         const profile = {
-<<<<<<< HEAD
-            name: "Amrit Tamang",
-=======
             email: "babina.waiba@gmail.com",
             name: "Alvina Tamang",
->>>>>>> e139cad... email added
             address: "451 Taralake State Drive NE",
 
         };
