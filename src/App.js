@@ -26,7 +26,7 @@ class App extends Component {
     render() {
         let sidebarClass = "sidebar";
         const profile = {
-            name: "Babina Waiba",
+            name: "Amrit Tamang",
             address: "451 Taralake State Drive NE",
         };
         console.log('States:', this.state);
