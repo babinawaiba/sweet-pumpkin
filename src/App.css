@@ -4,6 +4,10 @@ A.header {
 }
 .main-content-wrapper {
 }
+.MuiButton-containedPrimary {
+    color: #fff;
+    background-color: red!important;
+}
 .sidebar {
     width: 15%;
     background:hotpink;
